@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ProjetAudio</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+  <div class="filtre">
+    <div class="container">
+
+      <nav>
+        <ul>
+          <li><a href="/home">HOME</li></a>
+          <li><a href="/bio">BIO</li></a>
+          <li><a href="/photos">PHOTOS</li></a>
+          <li><a href="/music">MUSIC</li></a>
+          <li><a href="/videos">VIDEOS</li></a>
+          <li><a href="/news">NEWS</li></a>
+          <li><a href="/tour">TOUR</li></a>
+          <li><a href="/contact">CONTACT</li></a>
+        </ul>
+      </nav>
+    <h1>PROJET AUDIO</h1>
+    <%= yield %>
+    <div class="fond">
+      <div class="fond_left">
+        <h4>ABOUT OBSIDION</h4>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen .</p></div>
+      <div class="fond_middle">
+        <h4>VIVIENNE'S OMITTED LINE</h4>
+         <%= image_tag "album-03.jpg" %>
+    </div>
+      <div class="fond_right">
+        <h4>RECENT POSTS</4>
+          <h5>Welcome to our redesigned website</h5>
+        <p>APRIL 1, 2015</p>
+          <h5>New tou dates posted</h5>
+        <p>DECEMBER 16, 2014</p>
+          <h5>History of Popular Music</h5>
+        <p>DECEMBER 15, 2014</p>
+     </div>
+   </div>
+    <footer>
+      <i class="fa fa-twitter" style="font-size: 20px"></i>
+      <i class="fa fa-facebook-official" style="font-size: 20px"></i>
+      <i class="fa fa-instagram" style="font-size: 20px"></i>
+      <i class="fa fa-youtube-play" style="font-size: 20px"></i>
+      <i class="fa fa-vimeo-square" style="font-size: 20px"></i>
+      <i class="fa fa-amazon" style="font-size: 20px"></i>
+      <i class="fa fa-apple" style="font-size: 20px"></i>
+      <i class="fa fa-soundcloud" style="font-size: 20px"></i>
+      <i class="fa fa-spotify" style="font-size: 20px"></i>
+      <p class="footerp">OBSIDIAN MUSIC THEME BY AUDIOTHEME.</p>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<h6 style="color:white">CONTACT</h6>
+<div class="gauche">
+  <%= form_tag "/",  method: "post" do %>
+  Name (required)<br>
+  <input class="input_contact"type="text" name="name">
+  <br>
+  Last name (required)<br>
+  <input class="input_contact"type="email" name="email">
+  <br>
+  Website<br>
+  <input class="input_contact"type="text" name="website">
+  <br>
+  Comment (required)<br>
+  <textarea class="input_comment" name="textarea" style="opacity: 0.2"></textarea>
+  <br>
+  <input class="boutton" type="submit" value="SUBMIT">
+<% end %>
+</div>
+<div class="droite">
+  <input class="recherche" type="search" value="search...">
+  <h4>LASTEST NEWS</h4>
+    <h5>Welcome to our redesigned website</h5>
+      <p>composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard </p>
+        <p>APRIL 1, 2015</p>
+    <h5>News tour dates posted</h5>
+      <p>composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard </p>
+        <p>DECEMBER 16, 2014</p>
+    <h5>History of popular Music</h5>
+      <p>composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard </p>
+        <p>DECEMBER 15, 2014</p>
+</div>
